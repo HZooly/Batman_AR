@@ -1,34 +1,40 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
 
-*~
-*.sw[mnpcod]
-*.log
-*.tmp
-*.tmp.*
-log.txt
-*.sublime-project
-*.sublime-workspace
-.vscode/
-npm-debug.log*
+# platform Android
+/PluginSamples/platforms/android/.classpath
+/PluginSamples/platforms/android/.project
 
-.idea/
-.sass-cache/
-.tmp/
-.versions/
-coverage/
-dist/
-node_modules/
-tmp/
-temp/
-hooks/
-platforms/
-plugins/
-plugins/android.json
-plugins/ios.json
-www/
-$RECYCLE.BIN/
+/PluginSamples/platforms/android/bin/
+/PluginSamples/platforms/android/gen/
 
+/PluginSamples/platforms/android/CordovaLib/bin/
+/PluginSamples/platforms/android/CordovaLib/gen/
+/PluginSamples/platforms/android/CordovaLib/.classpath
+/PluginSamples/platforms/android/CordovaLib/.project
+/PluginSamples/platforms/android/CordovaLib/local.properties
+/PluginSamples/platforms/android/CordovaLib/project.properties
+/PluginSamples/platforms/android/local.properties
+/PluginSamples/platforms/android/project.properties
+
+# platform iOS
+iOS/PluginSamples/platforms/ios/build
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# OS X
 .DS_Store
-Thumbs.db
-UserInterfaceState.xcuserstate
