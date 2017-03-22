@@ -10,8 +10,8 @@ var World = {
 
 	createModelAtLocation: function createModelAtLocationFn() {
 
-		AR.logger.activateDebugMode();
-		AR.logger.info("createModelAtLocation called ...");
+		//AR.logger.activateDebugMode();
+		//AR.logger.info("createModelAtLocation called ...");
 
 		/*
 			First a location where the model should be displayed will be defined. This location will be relativ to the user.
@@ -21,12 +21,15 @@ var World = {
 		/*
 			Next the model object is loaded.
 		*/
-		var modelEarth = new AR.Model("assets/earth.wt3", {
+		var modelBatman = new AR.Model("assets/earth.wt3", {
 			onLoaded: this.worldLoaded,
 			scale: {
 				x: 1,
 				y: 1,
 				z: 1
+			},
+			onClick : function(){
+				document.location = "architectsdk://button?action=captureScreen";
 			}
 		});
 
@@ -41,7 +44,7 @@ var World = {
 		*/
 		var obj = new AR.GeoObject(location, {
             drawables: {
-               cam: [modelEarth],
+               cam: [modelBatman],
                indicator: [indicatorDrawable]
             }
         });
@@ -53,26 +56,26 @@ var World = {
 		The "Snapshot"-button is on top right in the title bar.
 		Once clicked the current screen is captured and user is prompted to share it (Handling of picture sharing is done in native code and cannot be done in JavaScript)
 	*/
-	captureScreen: function captureScreenFn() {
-		AR.logger.info("captureScreen called ...");
+	/*captureScreen: function captureScreenFn() {
+		//AR.logger.info("captureScreen called ...");
 
 		if (World.initialized) {
 			document.location = "architectsdk://button?action=captureScreen";
 		}
-	},
+	},*/
 
 	/**
 	 * This is an example of a function called by IONIC --> WikitudePlugin
 	 */
-	testFunction: function testFunctionFn(message) {
+	/*testFunction: function testFunctionFn(message) {
 		alert("testFunction called: "+message);
-	},
+	}*/
 
-	worldLoaded: function worldLoadedFn() {
+	/*worldLoaded: function worldLoadedFn() {
 		World.loaded = true;
 		var e = document.getElementById('loadingMessage');
 		e.parentElement.removeChild(e);
-	}
+	}*/
 };
 
 World.init();
