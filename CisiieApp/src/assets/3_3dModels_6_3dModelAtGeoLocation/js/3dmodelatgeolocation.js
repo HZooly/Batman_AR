@@ -9,12 +9,12 @@ var World = {
 	},
 
 	createModelAtLocation: function createModelAtLocationFn() {
-		
+
 		AR.logger.activateDebugMode();
 		AR.logger.info("createModelAtLocation called ...");
-		
+
 		/*
-			First a location where the model should be displayed will be defined. This location will be relativ to the user.	
+			First a location where the model should be displayed will be defined. This location will be relativ to the user.
 		*/
 		var location = new AR.RelativeLocation(null, 5, 0, 2);
 
@@ -30,7 +30,7 @@ var World = {
 			}
 		});
 
-        var indicatorImage = new AR.ImageResource("assets/indi.png");
+        var indicatorImage = new AR.ImageResource("assets/arrow.png");
 
         var indicatorDrawable = new AR.ImageDrawable(indicatorImage, 0.1, {
             verticalAnchor: AR.CONST.VERTICAL_ANCHOR.TOP
@@ -49,8 +49,8 @@ var World = {
 
 	/*
 		This sample shows you how to use the function captureScreen to share a snapshot with your friends. C
-		oncept of interaction between JavaScript and native code is same as in the POI Detail page sample but the urlListener now handles picture sharing instead. 
-		The "Snapshot"-button is on top right in the title bar. 
+		oncept of interaction between JavaScript and native code is same as in the POI Detail page sample but the urlListener now handles picture sharing instead.
+		The "Snapshot"-button is on top right in the title bar.
 		Once clicked the current screen is captured and user is prompted to share it (Handling of picture sharing is done in native code and cannot be done in JavaScript)
 	*/
 	captureScreen: function captureScreenFn() {
