@@ -24519,3 +24519,8 @@ page-home .card-background-page .card-subtitle {
   width: 100%;
   color: #fff;
 }
+
+page-home .card-background-page img {
+  width: 100%;
+  height: auto;
+}
