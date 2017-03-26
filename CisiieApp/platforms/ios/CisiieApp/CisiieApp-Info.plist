@@ -69,25 +69,25 @@
     </array>
     <key>UIApplicationShortcutItems</key>
     <array>
-        <dict>
-            <key>UIApplicationShortcutItemIconType</key>
-            <string>UIApplicationShortcutIconTypeHome</string>
-            <key>UIApplicationShortcutItemTitle</key>
-            <string>Accueil</string>
-            <key>UIApplicationShortcutItemType</key>
-            <string>home</string>
-        </dict>
-        <dict>
-            <key>UIApplicationShortcutItemIconFile</key>
-            <string>UIApplicationShortcutIconTypePlay</string>
-            <key>UIApplicationShortcutItemTitle</key>
-            <string>Augmented Reality</string>
-            <key>UIApplicationShortcutItemSubtitle</key>
-            <string>Wikitude Batman</string>
-            <key>UIApplicationShortcutItemType</key>
-            <string>eyefromplist</string>
-        </dict>
-        <dict>
+      <dict>
+        <key>UIApplicationShortcutItemIconType</key>
+        <string>UIApplicationShortcutIconTypeHome</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>Accueil</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>home</string>
+      </dict>
+      <dict>
+        <key>UIApplicationShortcutItemIconFile</key>
+        <string>UIApplicationShortcutIconTypePlay</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>Augmented Reality</string>
+        <key>UIApplicationShortcutItemSubtitle</key>
+        <string>Wikitude Batman</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>eyefromplist</string>
+      </dict>
+      <dict>
         <key>UIApplicationShortcutItemIconFile</key>
         <string>UIApplicationShortcutIconTypeCaptureVideo</string>
         <key>UIApplicationShortcutItemTitle</key>

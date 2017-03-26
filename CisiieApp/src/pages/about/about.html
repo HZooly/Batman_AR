@@ -7,5 +7,10 @@
 </ion-header>
 
 <ion-content padding>
-    <video controls src="assets/video/batman.mp4" style="width:100%; height:auto;"></video>
+  <video controls style="width:100%; height:auto;" preload="metadata">
+       <source src="assets/video/batman.mp4" type="video/mp4">
+       <track label="English" kind="subtitles" srclang="en" src="assets/video/batman_subtitles_eng.vtt" default>
+       <track label="Français" kind="subtitles" srclang="fr" src="assets/video/batman_subtitles_fr.vtt" default>
+  </video>
+
 </ion-content>
