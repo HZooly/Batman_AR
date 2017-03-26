@@ -58,8 +58,9 @@
     },
     "cordova-plugin-3dtouch": {
         "source": {
-            "type": "registry",
-            "id": "cordova-plugin-3dtouch"
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/cordova-plugin-3dtouch",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}
