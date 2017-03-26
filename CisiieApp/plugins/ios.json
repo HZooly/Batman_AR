@@ -27,6 +27,9 @@
         },
         "com.wikitude.phonegap.WikitudePlugin": {
             "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-3dtouch": {
+            "PACKAGE_NAME": "com.ionicframework.cisiieapp995556"
         }
     },
     "dependent_plugins": {}

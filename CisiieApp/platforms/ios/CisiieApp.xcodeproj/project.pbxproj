@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1B2FA5F62382468C9D5E4699 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D074B5D37264642ADBB36E0 /* CoreMedia.framework */; };
@@ -45,6 +44,8 @@
 		EA01E8353B274152AA7BE76E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6586E4F5F74B75B079BD9E /* CoreMotion.framework */; };
 		FDA9D71A862B47A395038A7B /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 803BD860121E422E96000927 /* IonicKeyboard.m */; };
 		FECE1ACD2FF6424597446AC8 /* WTARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616FACDA50DC421198CB8843 /* WTARViewController.m */; };
+		A538E72A5C01412483F97C37 /* ThreeDeeTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CE3E98AD64A2C9F1A73CC /* ThreeDeeTouch.m */; };
+		8D03A13BD4A84D87934FD486 /* AppDelegate+threedeetouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 688DBC54792049F49108E9F2 /* AppDelegate+threedeetouch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,10 @@
 		F3D68E358CAD4C61926FECCA /* MediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CisiieApp/config.xml; sourceTree = "<group>"; };
 		FCBF76552AFF4553AA0B8E4D /* CDVLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; };
+		A99CE3E98AD64A2C9F1A73CC /* ThreeDeeTouch.m */ = {isa = PBXFileReference; name = "ThreeDeeTouch.m"; path = "cordova-plugin-3dtouch/ThreeDeeTouch.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		688DBC54792049F49108E9F2 /* AppDelegate+threedeetouch.m */ = {isa = PBXFileReference; name = "AppDelegate+threedeetouch.m"; path = "cordova-plugin-3dtouch/AppDelegate+threedeetouch.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BA6236F26065417C8C3D6878 /* ThreeDeeTouch.h */ = {isa = PBXFileReference; name = "ThreeDeeTouch.h"; path = "cordova-plugin-3dtouch/ThreeDeeTouch.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F074FB5AF26D4526A05E1F0E /* AppDelegate+threedeetouch.h */ = {isa = PBXFileReference; name = "AppDelegate+threedeetouch.h"; path = "cordova-plugin-3dtouch/AppDelegate+threedeetouch.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +304,10 @@
 				2F337ADE0C7D4831B7CB4D29 /* WTArchitectViewDebugDelegate.h */,
 				E3A128A7B6BC42929A372BD7 /* WTAuthorizationRequestManager.h */,
 				DFB8BCF4E146439588A5161D /* WTWikitudeTypes.h */,
+				A99CE3E98AD64A2C9F1A73CC /* ThreeDeeTouch.m */,
+				688DBC54792049F49108E9F2 /* AppDelegate+threedeetouch.m */,
+				BA6236F26065417C8C3D6878 /* ThreeDeeTouch.h */,
+				F074FB5AF26D4526A05E1F0E /* AppDelegate+threedeetouch.h */,
 			);
 			name = Plugins;
 			path = CisiieApp/Plugins;
@@ -429,6 +438,8 @@
 				FDA9D71A862B47A395038A7B /* IonicKeyboard.m in Sources */,
 				E2E6DAB0263B4E1491FA8324 /* WTWikitudePlugin.m in Sources */,
 				FECE1ACD2FF6424597446AC8 /* WTARViewController.m in Sources */,
+				A538E72A5C01412483F97C37 /* ThreeDeeTouch.m in Sources */,
+				8D03A13BD4A84D87934FD486 /* AppDelegate+threedeetouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

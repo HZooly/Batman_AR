@@ -40,6 +40,14 @@ module.exports = [
         "clobbers": [
             "WikitudePlugin"
         ]
+    },
+    {
+        "id": "cordova-plugin-3dtouch.ThreeDeeTouch",
+        "file": "plugins/cordova-plugin-3dtouch/www/ThreeDeeTouch.js",
+        "pluginId": "cordova-plugin-3dtouch",
+        "clobbers": [
+            "ThreeDeeTouch"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -51,7 +59,8 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.2.1",
     "cordova-plugin-whitelist": "1.3.1",
     "ionic-plugin-keyboard": "2.2.1",
-    "com.wikitude.phonegap.WikitudePlugin": "6.0.1"
+    "com.wikitude.phonegap.WikitudePlugin": "6.0.1",
+    "cordova-plugin-3dtouch": "1.3.5"
 };
 // BOTTOM OF METADATA
 });
