@@ -24500,6 +24500,7 @@ ion-navbar.toolbar {
 
 body {
   -webkit-overflow-scrolling: touch;
+  -webkit-transform: translateZ(0px);
 }
 
 page-home .card-background-page ion-card {
