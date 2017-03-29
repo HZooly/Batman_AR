@@ -1,3 +1,9 @@
+<style type="text/css">
+  a {
+    text-decoration: none
+  }
+</style>
+
 <ion-header>
   <ion-navbar>
     <ion-title>Accueil</ion-title>
@@ -7,27 +13,44 @@
 <ion-content class="card-background-page">
 
   <ion-card>
-    <img src="assets/img/batman-header.jpg"/>
+    <img src="assets/img/batman-header.jpg" />
     <div class="card-title">Batman Mobile</div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    <p padding>
+      Bienvenue sur mon application mobile.<br/> Batman Mobile a été développé avec
+      <ion-icon name="heart" isActive="true"></ion-icon> à l'aide de <i>Ionic 2</i> et du plugin de <b>Réalité Augmentée</b> <i>Wikitude</i>
+      <ion-icon name="logo-instagram"></ion-icon>.
+    </p>
+    <p padding>
+      Cette application a été conçue dans le cadre du cours de Développement Mobile encadré par Monsieur <a href="https://itunes.apple.com/kg/developer/samuel-cruz-lara/id593023542">Samuel Cruz-Lara</a>.
+    </p>
+    <p padding>
+      Vous pourrez retrouver les sources de ce projet sur
+      <ion-icon name="github"></ion-icon><a href="https://github.com/torzuoliH/cisiie_appmobile">GitHub</a>.
+    </p>
   </ion-card>
 
   <ion-card>
-    <img src="assets/img/ar.jpg"/>
-    <div class="card-title">Augmented Reality</div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/img/ionic.jpg"/>
+    <img src="assets/img/ionic.jpg" />
     <div class="card-title">Ionic v2</div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    <p padding>
+      <b>Ionic</b> est un framework basé sur <i>Angular</i> et <i>Cordova</i> permettant de générer des applications mobiles (iOS, Android, Windows Phone etc...) à partir de langages web.
+    </p>
+    <p padding>
+      J'ai préféré utiliser la version 2 de Ionic, afin d'intégrer plus facilement le plugin <b>Wikitude</b>, tout en écrivant du code en <i>TypeScript</i>. De plus, les performances en v2 sont améliorées.
+    </p>
+
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/img/ar.jpg" />
+    <div class="card-title">Réalité Augmentée</div>
+    <p padding>
+      Wikitude est un plugin Cordova permettant d'intégrer des éléments de réalité augmentée au sein d'une application <b>Cordova</b>.
+    </p>
+
+    <p padding>
+      J'ai utilisé un modèle 3D libre de droit en <i>FBX</i>, converti celui-ci à l'aide de <b>Wikitude 3D Encoder</b> en <i>WT3</i>.
+    </p>
   </ion-card>
 
 </ion-content>
