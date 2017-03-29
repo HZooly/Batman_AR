@@ -42,14 +42,6 @@
     <true/>
     <key>NSAppTransportSecurity</key>
     <dict>
-      <key>NSExceptionDomains</key>
-      <dict>
-        <key>ionic.local</key>
-        <dict>
-          <key>NSExceptionAllowsInsecureHTTPLoads</key>
-          <true/>
-        </dict>
-      </dict>
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
