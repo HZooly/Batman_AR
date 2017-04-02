@@ -4,7 +4,7 @@
 Ce projet a été réalisé durant le cours de développement d'applications web mobiles en Licence Professionnelle CISIIE.
 
 ## Démo Vidéo
-![Lien Youtube](https://www.youtube.com/watch?v=-WRip_Jx18M%29)
+[Lien Youtube](https://www.youtube.com/watch?v=-WRip_Jx18M%29)
 
 ## Features
 - Ionic v2 (tabs template)
