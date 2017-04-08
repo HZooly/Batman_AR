@@ -41,12 +41,13 @@ Il est possible de tester sur un émulateur iDevice, mais l'onglet Wikitude ne f
 
 ## Screenshots
 
+## Home ##
  ![Accueil](http://i.imgur.com/RTtLtqq.jpg)
- ## Heading ##
+ ## Video page ##
  ![Vidéo](http://i.imgur.com/gLehqD0.jpg)
- ## Heading ##
+ ## Augmented Reality View ##
  ![Réalité Augmentée Wikitude](http://i.imgur.com/yqq2I8K.jpg)
- ## Heading ##
+ ## 3D Touch ##
  ![3D Touch](http://i.imgur.com/PhHbGWX.jpg)
 
 ## Contributeurs
