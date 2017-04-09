@@ -43,7 +43,7 @@ Cloner le dépot :
 
 Il est possible de tester sur un émulateur iDevice, mais l'onglet Wikitude ne fonctionnera pas.
 
-Le projet est également fonctionnel sur Android, vous pouvez le tester à l'aide de ``ìonic emulate android``` ou en ouvrant le projet dans Android Studio.
+Le projet est également fonctionnel sur Android, vous pouvez le tester à l'aide de ```ionic emulate android``` ou en ouvrant le projet dans Android Studio.
 
 ## Screenshots
 
