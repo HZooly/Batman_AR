@@ -29,7 +29,11 @@ Cloner le dépot :
 
 > $ ionic platform add ios
 
+> $ ionic platform add android
+
 > $ ionic build ios
+
+> $ ionic build android
 
 > $ cd platforms/ios/
 
@@ -38,6 +42,8 @@ Cloner le dépot :
 - Build et run le projet
 
 Il est possible de tester sur un émulateur iDevice, mais l'onglet Wikitude ne fonctionnera pas.
+
+Le projet est également fonctionnel sur Android, vous pouvez le tester à l'aide de ``ìonic emulate android``` ou en ouvrant le projet dans Android Studio.
 
 ## Screenshots
 
