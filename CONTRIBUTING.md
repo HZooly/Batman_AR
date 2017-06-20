@@ -1,0 +1,3 @@
+# CONTRIBUTING
+
+Feel free to contribute to this project, suggest improvements, report bugs etc...
