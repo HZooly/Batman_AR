@@ -12,7 +12,6 @@ Ce projet a été réalisé durant le cours de développement d'applications web
 - 3D Touch Compatible
 - Vidéo & sous-titres
 
-
 ## Requis
 
  - iOS 8.x et +
@@ -23,9 +22,9 @@ Ce projet a été réalisé durant le cours de développement d'applications web
 ## Installation
 
 Cloner le dépot :
-> $ git clone https://github.com/torzuoliH/cisiie_appmobile.git
+> $ git clone https://github.com/torzuoliH/batman_ar.git
 
-> $ cd cisiie_appmobile/
+> $ cd batman_ar/
 
 > $ ionic platform add ios
 
