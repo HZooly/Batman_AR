@@ -26,6 +26,8 @@ Cloner le dépot :
 
 > $ cd batman_ar/
 
+> $ npm install
+
 > $ ionic platform add ios
 
 > $ ionic platform add android
